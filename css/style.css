@@ -1,0 +1,118 @@
+:root {
+  --shuddhi-color: #0099ff;
+}
+h5 {
+  text-align: center;
+}
+#main {
+  margin: 100px 10px;
+}
+.lang-box {
+  text-align: center;
+  text-decoration: none;
+}
+.lang-box a {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background: var(--shuddhi-color);
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+.lang-box a:hover {
+  cursor: pointer;
+  border-color: black;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px 5px 30px 5px;
+}
+
+#supportbox {
+  padding: 0 20px 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  text-align: center;
+  font-size: 1.2em;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -10%);
+  -moz-transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  -o-transform: translate(-50%, -10%);
+  transform: translate(-50%, -10%);
+}
+
+#supportbox > a {
+  margin: 10px;
+}
+
+#footer {
+  position: absolute;
+  text-align: center;
+  font-size: 1em;
+  bottom: 10px;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -10%);
+  -moz-transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  -o-transform: translate(-50%, -10%);
+  transform: translate(-50%, -10%);
+}
+
+.menu-links {
+  position: absolute;
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -300%);
+}
+
+.menu-links a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.menu-links a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--shuddhi-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  #supportbox {
+    position: static;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+
+  #footer {
+    margin-top: 50px;
+    position: static;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    bottom: 10px;
+  }
+}
