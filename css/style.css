@@ -49,7 +49,7 @@ h5 {
   position: static;
   text-align: center;
   font-size: 1.2em;
-  width: 300px;
+  max-width: 300px;
   height: auto;
   margin: 20px auto;
 }
@@ -62,8 +62,7 @@ h5 {
   position: absolute;
   text-align: center;
   font-size: 1em;
-  bottom: -130px;
-  margin-bottom: 10px;
+  bottom: -60px;
   left: 50%;
   width: auto;
   height: auto;
@@ -101,6 +100,9 @@ h5 {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    margin-bottom: 10px;
+  }
   .supportbox {
     position: static;
     -webkit-transform: none;
@@ -125,12 +127,12 @@ h5 {
     color: gray;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .dot {
-    height: 5px;
-    width: 5px;
+    height: 2px;
+    width: 2px;
     background-color: var(--shuddhi-color);
     border-radius: 50%;
     display: inline-block;
