@@ -1,10 +1,12 @@
 const upi = "shuddhi.vidhya@upi";
 
-function copyUpiId() {
+function openUpiModal() {
   copyToClipboard();
+  document.querySelector(".bg-modal").style.display = "flex";
+}
 
-  /* Alert the copied text */
-  window.alert(upi + "\n\nUPI ID copied to clipboard!");
+function closeUpiModal() {
+  document.querySelector(".bg-modal").style.display = "none";
 }
 
 const copyToClipboard = () => {

@@ -60,7 +60,7 @@
         target="_blank"
         rel="noopener noreferrer"
         ><img src="media/images/patreon-logo.png" height="50px" /></a
-      >&nbsp;&nbsp;<a href="" onclick="copyUpiId()"
+      >&nbsp;&nbsp;<a href="#" onclick="openUpiModal()"
         ><img src="media/images/upi-logo.png" height="50px"
       /></a>
     </div>
@@ -72,7 +72,7 @@
         href="https://docs.google.com/forms/d/e/1FAIpQLSfOctV_9Tz0zi25xlK2N13n0pYqN13iRhEI3um03kBCQciUiw/viewform?usp=sf_link"
         target="_blank"
         rel="noopener noreferrer"
-        ><img src="media/images/hand-icon.svg" height="50px"
+        ><img src="media/images/volunteer-icon.svg" height="50px"
       /></a>
     </div>
     <div id="footer">
@@ -88,6 +88,25 @@
         >Copyright &copy; 2021 Shuddhi Fund, All Rights Reserved</small
       >
       <p></p>
+    </div>
+    <div class="bg-modal">
+      <div class="modal-contents">
+        <div class="close" onclick="closeUpiModal()">+</div>
+        <br />
+        <p class="notification">
+          Ths UPI ID has been copied to your clipboard!
+        </p>
+        <hr />
+        <h2>shuddhi.vidhya@upi</h2>
+        <hr />
+        <br />
+        <img
+          src="media/images/upi-qr.png"
+          max-height="300px"
+          class="qr-code"
+          alt="Shuddhi Vidhya UPI QR Code"
+        />
+      </div>
     </div>
   </body>
 </html>
