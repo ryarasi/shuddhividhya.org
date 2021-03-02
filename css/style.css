@@ -147,6 +147,22 @@ close:hover {
   color: white;
 }
 
+@media only screen and (max-height: 850px) {
+  body {
+    margin-bottom: 10px;
+  }
+
+  #footer {
+    margin-top: 50px;
+    position: static;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    bottom: 10px;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     margin-bottom: 10px;
