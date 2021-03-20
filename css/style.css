@@ -62,7 +62,7 @@ h5 {
   position: absolute;
   text-align: center;
   font-size: 1em;
-  bottom: -60px;
+  bottom: -10px;
   left: 50%;
   width: auto;
   height: auto;
@@ -179,6 +179,7 @@ close:hover {
   #footer {
     margin-top: 50px;
     position: static;
+    font-size: 0.8em;
     -webkit-transform: none;
     -moz-transform: none;
     -ms-transform: none;
