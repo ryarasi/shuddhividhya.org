@@ -8,8 +8,15 @@ body {
 h5 {
   text-align: center;
 }
-#main {
+.main {
   margin: 100px 10px 50px 10px;
+}
+.main p {
+  font-size: 1.2em;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .lang-box {
   text-align: center;
@@ -166,6 +173,10 @@ close:hover {
 @media only screen and (max-width: 600px) {
   body {
     margin-bottom: 10px;
+  }
+  .main-block {
+    width: 100%;
+    padding: 10px;
   }
   .supportbox {
     position: static;
